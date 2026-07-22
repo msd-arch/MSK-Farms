@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &amp; Booking — MSK Farms</title>
+<meta name="description" content="Book mutton, Qurbani cattle, milk or eggs from MSK Farms. Call, WhatsApp, or send a booking request online.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23123d2a'/%3E%3Ctext x='50' y='66' font-family='monospace' font-size='40' font-weight='700' fill='%23e9a13c' text-anchor='middle'%3EMSK%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<div class="scrim"></div>
+<header class="site-header">
+  <nav class="wrap nav" aria-label="Primary">
+    <a class="brand" href="index.html">
+      <span class="tag">MSK</span>
+      <span>MSK Farms<small>Islamabad · Est. 2015</small></span>
+    </a>
+    <div class="nav-links" id="menu">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="portfolio.html">Livestock</a><a href="contact.html" class="active">Contact</a>
+      <a class="btn btn--primary menu-cta" href="contact.html">Book now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="nav-actions">
+      <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">
+        <span class="sun"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg></span><span class="moon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 019.5 4 8 8 0 1020 14.5z"/></svg></span>
+      </button>
+      <a class="btn btn--primary nav-desktop-cta" href="contact.html">Book now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <button class="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="wrap page-head">
+    <div class="breadcrumb">Home / Contact</div>
+    <h1>Let&rsquo;s get your order started</h1>
+    <p class="lead">Tell us what you need and we&rsquo;ll get right back to you — usually within the hour during farm hours.</p>
+  </section>
+
+  <section class="section--tight wrap">
+    <div class="form-wrap">
+      <form id="booking-form" novalidate>
+        <div class="field">
+          <label for="name">Full name *</label>
+          <input type="text" id="name" name="name" placeholder="e.g. Bilal Ahmed" autocomplete="name">
+          <div class="msg"></div>
+        </div>
+        <div class="field">
+          <label for="phone">Mobile number *</label>
+          <input type="tel" id="phone" name="phone" placeholder="03001234567" autocomplete="tel">
+          <div class="msg"></div>
+        </div>
+        <div class="field">
+          <label for="email">Email <span style="color:var(--muted);font-weight:400">(optional)</span></label>
+          <input type="email" id="email" name="email" placeholder="you@email.com" autocomplete="email">
+          <div class="msg"></div>
+        </div>
+        <div class="field">
+          <label for="service">What do you need? *</label>
+          <select id="service" name="service">
+            <option value="">Choose a service…</option>
+            <option>Year-round mutton</option>
+            <option>Eid Qurbani cattle / hissa</option>
+            <option>Animal boarding &amp; fattening</option>
+            <option>Fresh Sahiwal milk</option>
+            <option>Desi farm eggs</option>
+            <option>Something else</option>
+          </select>
+          <div class="msg"></div>
+        </div>
+        <div class="field">
+          <label for="message">Details *</label>
+          <textarea id="message" name="message" placeholder="Tell us quantities, your area in Islamabad, and any dates…"></textarea>
+          <div class="msg"></div>
+        </div>
+        <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center">Send booking request <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <div class="form-success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg> Thanks! Your request is in — we&rsquo;ll reply on WhatsApp shortly.</div>
+      </form>
+
+      <div>
+        <div class="contact-cards"><a class="contact-line" href="tel:+923001234567"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 005 5L14 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg></span>
+        <div><span>Call us</span><b>+92 300 1234567</b></div></a><a class="contact-line" href="https://wa.me/923001234567"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 01-12.3 7.6L3 21l1.9-5.7A8.5 8.5 0 1121 11.5z"/><path d="M8.5 11.5h7M8.5 8.5h4"/></svg></span>
+        <div><span>WhatsApp</span><b>+92 300 1234567</b></div></a><a class="contact-line" href="mailto:hello@mskfarms.pk"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7l8.5 6 8.5-6"/></svg></span>
+        <div><span>Email</span><b>hello@mskfarms.pk</b></div></a><a class="contact-line" href="#"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6-7-11a7 7 0 0114 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.4"/></svg></span>
+        <div><span>Visit the farm</span><b>Thatta Khalil, near Sangjani</b></div></a><a class="contact-line" href="#"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/></svg></span>
+        <div><span>Open hours</span><b>Sat–Thu · 6am – 8pm</b></div></a></div>
+        <div class="form-note" style="margin-top:1rem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/></svg>
+          <div><b style="color:var(--ink)">In a hurry?</b> WhatsApp is fastest during Eid season — we reply there first.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="head-row"><div><span class="eyebrow">Before you ask</span><h2 class="sec-title">Booking &amp; delivery FAQs</h2></div></div>
+    <div class="faq"><div class="faq-item"><button class="faq-q" aria-expanded="false"><span>How soon can I get my order?</span><span class="plus">+</span></button><div class="faq-a"><p>Milk and eggs start next morning. Mutton is usually same-day or next-day. Qurbani meat is delivered on your chosen Eid day.</p></div></div><div class="faq-item"><button class="faq-q" aria-expanded="false"><span>Do you deliver free?</span><span class="plus">+</span></button><div class="faq-a"><p>Yes — delivery is free across most of Islamabad. Far-out areas may have a small charge, which we&rsquo;ll confirm when you book.</p></div></div><div class="faq-item"><button class="faq-q" aria-expanded="false"><span>How do I pay?</span><span class="plus">+</span></button><div class="faq-a"><p>Cash on delivery, bank transfer, or JazzCash/Easypaisa. Qurbani and boarding usually need a small deposit to confirm.</p></div></div><div class="faq-item"><button class="faq-q" aria-expanded="false"><span>Can overseas Pakistanis book Qurbani for family here?</span><span class="plus">+</span></button><div class="faq-a"><p>Absolutely. Book on our behalf, pay online, and we&rsquo;ll deliver the meat to your family in Islamabad and send you confirmation.</p></div></div></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="brand"><span class="tag">MSK</span><span>MSK Farms<small>Islamabad · Est. 2015</small></span></div>
+      <p>Farm-raised mutton all year, Qurbani cattle for Eid, plus fresh Sahiwal milk and desi eggs delivered to your door in Islamabad.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="index.html">Home</a><a href="about.html">About us</a>
+      <a href="services.html">Services</a><a href="portfolio.html">Our livestock</a>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <a href="services.html">Year-round mutton</a><a href="services.html">Eid Qurbani cattle</a>
+      <a href="services.html">Animal boarding</a><a href="services.html">Milk &amp; eggs</a>
+    </div>
+    <div>
+      <h4>Reach us</h4>
+      <a href="tel:+923001234567">+92 300 1234567</a>
+      <a href="https://wa.me/923001234567">WhatsApp us</a>
+      <a href="mailto:hello@mskfarms.pk">hello@mskfarms.pk</a>
+      <a href="contact.html">Thatta Khalil, near Sangjani</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© <span id="year">2026</span> MSK Farms. Raised with care in Islamabad.</span>
+    <div class="socials">
+      <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 01-12.3 7.6L3 21l1.9-5.7A8.5 8.5 0 1121 11.5z"/><path d="M8.5 11.5h7M8.5 8.5h4"/></svg></a>
+      <a href="#" aria-label="Call"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 005 5L14 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg></a>
+      <a href="#" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7l8.5 6 8.5-6"/></svg></a>
+    </div>
+  </div>
+</footer>
+<button class="to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+<script src="js/main.js"></script>
+</body>
+</html>
